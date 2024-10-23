@@ -19,7 +19,7 @@
 </head>
 <body>
 <div class="container mt-5">
-    <h1>Database Execution</h1>
+    <h1>Database SQL Query Execution</h1>
     <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
         <form action="{{url('execute-query')}}" method="post">
             @csrf
